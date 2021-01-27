@@ -1,7 +1,10 @@
 # Dockerize-R-shiny-app
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6bhzHjTyl9IyOUN7a4oozAPcHSe6Ktrm_Ww&usqp=CAU&ec=45761791)
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqOXZeatJlDj-haCx7wO2SXEw14YF82kIo1g&usqp=CAU&ec=45761791)
+
 An example of dockerized R shiny app
 
-## Prerequisite 
+# Prerequisite 
 - Install Docker Desktop and create a docker acount 
 - Run Docker Desktop (make sure you have switched to Linux containers even if you are on Windows OS). Ensure to set up proxies paramaeters if necessary . Note that proxies parameters must also be set at the beginining of Dockerfile using ENV command (ex : ENV http_proxy "http://...")
 - Go to the terminal ( cmd commmand ) and use cd command to locate to the host directoty of the shiny app (that directory must  app.R including ui and server parts and of course the Dockerfile)
